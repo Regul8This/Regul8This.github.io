@@ -5,7 +5,7 @@ Per the [mainnet-announcement channel of Findora's Discord server](https://disco
 
 Unfortunately, there were several different versions of the script on the Wiki and it took some trial and error and working with the moderators of the Discord server to get it working. The script that ultimately worked is below for any others who may be running into issues.
 
-There are still errors, though. According to the moderators, the errors we are seeing have been seen by the dev team and [will **not** cause any performance problems for the node](https://discord.com/channels/789009413976883220/902960166071336960/920457805100630016).
+There are still errors, though. According to the moderators, the errors we are seeing ([in `fn`](https://discord.com/channels/789009413976883220/902960166071336960/920453707404030083) and [in the docker logs](https://discord.com/channels/789009413976883220/902960166071336960/920450379655831582)) have been seen by the dev team and [will **not** cause any performance problems for the node](https://discord.com/channels/789009413976883220/902960166071336960/920457805100630016).
 
 ```
 #!/usr/bin/env bash
