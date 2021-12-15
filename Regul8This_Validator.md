@@ -1,4 +1,76 @@
 # Regul8This Validator
+
+## Validator Upgraded to Version 0.3.5 on 14 Dec 2021
+Per the [mainnet-announcement channel of Findora's Discord server](https://discord.com/channels/789009413976883220/918905868035166268/920248981831954442), the validator needed to be updated.
+
+Unfortunately, there were several different versions of the script on the Wiki and it took some trial and error and working with the moderators of the Discord server to get it working. The script that ultimately worked is below for any others who may be running into issues.
+
+There are still errors, though. According to the moderators, the errors we are seeing have been seen by the dev team and [will **not** cause any performance problems for the node](https://discord.com/channels/789009413976883220/902960166071336960/920457805100630016).
+
+```
+#!/usr/bin/env bash
+ENV=prod
+NAMESPACE=mainnet
+SERV_URL=https://${ENV}-${NAMESPACE}.${ENV}.findora.org
+FINDORAD_IMG=findoranetwork/findorad:v0.3.5-release
+
+sudo mkdir -p /data/findora
+export ROOT_DIR=/data/findora/${NAMESPACE}
+EOF
+
+###################
+# get snapshot    #
+###################
+
+# download latest link and get url
+wget -O "${ROOT_DIR}/latest" "https://${ENV}-${NAMESPACE}01-us-west-2-chain-dat>
+CHAINDATA_URL=$(cut -d , -f 1 "${ROOT_DIR}/latest")
+echo $CHAINDATA_URL
+
+# remove old data
+rm -rf "${ROOT_DIR}/findorad"
+rm -rf "${ROOT_DIR}/tendermint/data"
+rm -rf "${ROOT_DIR}/tendermint/config/addrbook.json"
+
+wget -O "${ROOT_DIR}/snapshot" "${CHAINDATA_URL}"
+mkdir "${ROOT_DIR}/snapshot_data"
+tar zxvf "${ROOT_DIR}/snapshot" -C "${ROOT_DIR}/snapshot_data"
+
+mv "${ROOT_DIR}/snapshot_data/data/ledger" "${ROOT_DIR}/findorad"
+mv "${ROOT_DIR}/snapshot_data/data/tendermint/mainnet/node0/data" "${ROOT_DIR}/>
+
+rm -rf ${ROOT_DIR}/snapshot_data
+
+docker run -d \
+    -v ${ROOT_DIR}/tendermint:/root/.tendermint \
+    -v ${ROOT_DIR}/findorad:/tmp/findora \
+    -p 8669:8669 \
+    -p 8668:8668 \
+    -p 8667:8667 \
+    -p 8545:8545 \
+    -p 26657:26657 \
+    -e EVM_CHAIN_ID=2152 \
+    --name findorad \
+    ${FINDORAD_IMG} node \
+    --ledger-dir /tmp/findora \
+    --tendermint-host 0.0.0.0 \
+    --tendermint-node-key-config-path="/root/.tendermint/config/priv_validator_key.json" \
+    --enable-query-service \
+    --enable-eth-api-service
+
+sleep 10
+
+curl 'http://localhost:26657/status'; echo
+curl 'http://localhost:8669/version'; echo
+curl 'http://localhost:8668/version'; echo
+curl 'http://localhost:8667/version'; echo
+
+echo "Local node initialized, please stake your FRA tokens after syncing is completed."
+
+docker logs -f findorad
+```
+
+
 ## Downtime on 2 Dec 2021
 It may have come to your attention that the validator went down today. It turns out that this issue that affected the Regul8This validator is a random error that is a known issue. It is going to be [fixed in upcoming releases.](https://discord.com/channels/789009413976883220/902960166071336960/916065157803802694 "FRA Discord Message")
 
