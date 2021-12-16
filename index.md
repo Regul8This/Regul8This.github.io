@@ -20,4 +20,4 @@ For [more information on staking](https://findora.org/2021/10/staking-live-on-fi
 
 [^1]: Note that the [Findora Explorer for Validators](https://findorascan.io/nodes) is not currently (as of 16 Dec 2021) showing the correct APY. The wallet app does currently show the correct amount after you have staked your funds. At this time, the current APY is 42% for Regul8This but that is likely to go up now that v0.3.5 is live and will start giving out the correct APY which will then average out with the incorrect APY it was giving out to finally stabilize at the "new", correct APY.
 
-[Regul8This Validator News](Regul8This_Validator.md)
+## [Regul8This Validator News](Regul8This_Validator.md)
