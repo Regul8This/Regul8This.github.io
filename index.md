@@ -4,9 +4,9 @@ The [Regul8This Validator](https://findorascan.io/node?node=3560FD0632B4E2F4F164
 
 ## Detailed Instructions on Staking Findora with Regul8This
 1. Buy FRA if you don't have any (or if you just want more!). Go to [gate.io](https://www.gate.io/) to buy Findora FRA.
-2. 3. [Download the latest Findora Wallet](https://wallet.findora.org/).
+2. [Download the latest Findora Wallet](https://wallet.findora.org/).
 4. Install the latest Findora Wallet.
-5. Create a wallet or imort a wallet (follow the directions in the wallet app).
+5. Create a wallet or import a wallet (follow the directions in the wallet app).
 6. If you already have FRA, ensure it is in the wallet address you just created or imported; if not, send it to your new/imported wallet. (After buying FRA on gate.io, it will be in your gate.io wallet; send it to your own personal wallet that you just created or imported.)
 7. When you have the Findora in your wallet, click on "Staking" in the left menu of the wallet.
 8. From the dropdown in the top right pane, ensure the correct wallet is selected.
