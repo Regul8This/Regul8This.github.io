@@ -12,13 +12,11 @@ The [Regul8This Validator](https://findorascan.io/node?node=3560FD0632B4E2F4F164
 8. From the dropdown in the top right pane, ensure the correct wallet is selected.
 9. Click the purple button the bottom right that says "STAKE".
 10. Enter the amount of FRA to stake.
-11. Then select the validator to stake to in the drop down (look for Regul8This with an address of 3560FD0632B4E2F4F16490BBD9CD0A763045BF35).[^1]
+11. Then select the validator to stake to in the drop down (look for Regul8This with an address of 3560FD0632B4E2F4F16490BBD9CD0A763045BF35).
 12. Click "STAKE".
 13. Finally, ensure you have backed up your mnemonic so you can restore your wallet if the need arises. Keep the backup in a safe spot.
 14. Happy earning!
 
 For [more information on staking](https://findora.org/2021/10/staking-live-on-findora-mainnet-beta/), see this article from Findora about staking in the prior version of the mainnet (v0.2.0).
-
-[^1]: Note that the [Findora Explorer for Validators](https://findorascan.io/nodes) is not currently (as of 16 Dec 2021) showing the correct APY. The wallet app does currently show the correct amount after you have staked your funds. At this time, the current APY is 42% for Regul8This but that is likely to go up now that v0.3.5 is live and will start giving out the correct APY which will then average out with the incorrect APY it was giving out to finally stabilize at the "new", correct APY.
 
 ## [Regul8This Validator News](Regul8This_Validator.md)
