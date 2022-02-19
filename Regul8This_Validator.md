@@ -1,5 +1,8 @@
 # Regul8This Validator
 
+## Validator Upgraded to Version 0.3.19-release on 19 Feb 2022 @ 1542 PST
+Per the [Discord thread stating that all validators needed upgrading](https://discord.com/channels/789009413976883220/918905868035166268/944274401334009906), we upgraded the validator this afternoon. We are now using findorad image version e48d2aa17eb0. 
+
 ## Validator Upgraded to Version 0.3.11-release on 28 Dec 2021 @ 1131 PST
 Per the [Discord thread stating that all validators needed upgrading](https://discord.com/channels/789009413976883220/902960166071336960/925456119617433643), we upgraded the validator this morning. Despite the information from the dev team, it appears that the findorad docker image also needed to be upgraded. We did that and now have findorad image version cb6aa1260f32 updated just a couple of hours ago. 
 
