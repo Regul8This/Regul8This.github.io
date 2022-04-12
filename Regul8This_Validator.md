@@ -9,7 +9,7 @@ What the "fix" did allow, was for the validator to run; what it did not allow fo
 
 Regul8This took the approach of doubling the size of the validator. It is now running on an 8 vCPU/32 GB RAM system. That setup allowed the validator to catch up with the current block, though it still took much more time than before the FRA team made the seed node changes that caused this problem in the first place.
 
-Even today, validators are complaining about the slow speed of the network. (See for examples [here](https://discord.com/channels/789009413976883220/902960166071336960/963324919565934612) and [here](https://discord.com/channels/789009413976883220/902960166071336960/963374661083754586).)
+Even today, validators are complaining about the slow speed of the network. (See, for example, [here](https://discord.com/channels/789009413976883220/902960166071336960/963324919565934612) and [here](https://discord.com/channels/789009413976883220/902960166071336960/963374661083754586).)
 
 ## Validator Upgraded to Version 0.3.19-release on 19 Feb 2022 @ 1542 PST
 Per the [Discord thread stating that all validators needed upgrading](https://discord.com/channels/789009413976883220/918905868035166268/944274401334009906), we upgraded the validator this afternoon. We are now using findorad image version e48d2aa17eb0. 
