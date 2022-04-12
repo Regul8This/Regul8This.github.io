@@ -3,7 +3,7 @@
 ## Downtime on 7 April and 8 April 2022
 You may have noticed that the majority of the validators went down starting on 7 April 2022. This problem was [caused by a change to the seed nodes that caused a change in IP address](https://discord.com/channels/789009413976883220/902960166071336960/961779463845187584).
 
-It is unclear why most but not all validators were hit by this IP address change issue. The stated fix of simply deleting the addrbook.json and restarting the validator did not work. Or, at least, it did not allow the validator to come back online.
+It is unclear why most but not all validators were hit by this IP address change issue. The [stated fix of simply deleting the addrbook.json and restarting the validator](https://discord.com/channels/789009413976883220/902960166071336960/961800125515173888) did not work. Or, at least, it did not allow the validator to come back online.
 
 What the "fix" did allow, was for the validator to run; what it did not allow for was a quick way to catch back up to the current block so the validator could be truly "online". Even running a 4 vCPU system with 16 GB RAM (the recommended setup by the FRA team), the Regul8This validator could not catch up. Neither could many other validators.
 
