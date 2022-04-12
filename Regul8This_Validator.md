@@ -1,5 +1,16 @@
 # Regul8This Validator
 
+## Downtime on 7 April and 8 April 2022
+You may have noticed that the majority of the validators went down starting on 7 April 2022. This problem was [caused by a change to the seed nodes that caused a change in IP address](https://discord.com/channels/789009413976883220/902960166071336960/961779463845187584).
+
+It is unclear why most but not all validators were hit by this IP address change issue. The stated fix of simply deleting the addrbook.json and restarting the validator did not work. Or, at least, it did not allow the validator to come back online.
+
+What the "fix" did allow, was for the validator to run; what it did not allow for was a quick way to catch back up to the current block so the validator could be truly "online". Even running a 4 vCPU system with 16 GB RAM (the recommended setup by the FRA team), the Regul8This validator could not catch up. Neither could many other validators.
+
+Regul8This took the approach of doubling the size of the validator. It is now running on an 8 vCPU/32 GB RAM system. That setup allowed the validator to catch up with the current block, though it still took much more time than before the FRA team made the seed node changes that caused this problem in the first place.
+
+Even today, validators are complaining about the slow speed of the network. (See for examples [here](https://discord.com/channels/789009413976883220/902960166071336960/963324919565934612) and [here](https://discord.com/channels/789009413976883220/902960166071336960/963374661083754586).)
+
 ## Validator Upgraded to Version 0.3.19-release on 19 Feb 2022 @ 1542 PST
 Per the [Discord thread stating that all validators needed upgrading](https://discord.com/channels/789009413976883220/918905868035166268/944274401334009906), we upgraded the validator this afternoon. We are now using findorad image version e48d2aa17eb0. 
 
