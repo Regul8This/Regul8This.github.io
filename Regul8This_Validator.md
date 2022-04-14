@@ -1,5 +1,12 @@
 # Regul8This Validator
 
+## Downtime on 14 April 2022
+The same type of issue that arose on 7 April popped up again for many of the validators. The validators were still running, but were a handful of blocks behind the chain and were thus "offline". No matter how much hardware validators were using, they were behind.
+
+[According to the official Findora Discord](https://discord.com/channels/789009413976883220/902960166071336960/964250487820005436), the workaround was to stop the validator and restart it without the usually recommended ```--enable-query-service``` flag. That worked. Unfortunately, that fix was not released until validators (including Regul8This) were unable to process new blocks for a couple of hours.
+
+[According to the developers](https://discord.com/channels/789009413976883220/902960166071336960/964230742165053521), there is a fix being developed and tested right now. Fingers crossed.
+
 ## Downtime on 7 April and 8 April 2022
 You may have noticed that the majority of the validators went down starting on 7 April 2022. This problem was [caused by a change to the seed nodes that caused a change in IP address](https://discord.com/channels/789009413976883220/902960166071336960/961779463845187584).
 
