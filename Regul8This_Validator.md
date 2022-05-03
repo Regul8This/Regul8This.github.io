@@ -1,5 +1,8 @@
 # Regul8This Validator
 
+## Findora Discord Gone
+As of approximately 28 April 2022, the Discord server for all the links provided below is gone. The [link to the Discord server](https://discord.com/invite/dHhY5pte) provided on the [Findora Wiki](https://wiki.findora.org/docs/general/intro/) no longer works. The [link to the Findora discord](https://findora.org/) on the [Findora home page](https://findora.org/) takes me to brand new blank Discord server. It seems to be the "new" Discord server, but I do not have any permission to verify or agree to the rules. I'm not sure what is going on with the Discord server.
+
 ## Downtime on 14 April 2022
 The same type of issue that arose on 7 April popped up again for many of the validators. The validators were still running, but were a handful of blocks behind the chain and were thus "offline". No matter how much hardware validators were using, they were behind.
 
