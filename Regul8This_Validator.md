@@ -1,7 +1,10 @@
 # Regul8This Validator
 
+# Update to v.0.3.25
+On 16 May 2002, per the [announcement in the Discord channel](https://discord.com/channels/789009413976883220/902960166071336960/975615313091629087), the validator was updated in a mere matter of seconds (as it should be) to the latest 0.3.25 version of the software.
+
 ## Update to "Findora Discord Gone" Below
-On 3 May 2022 at approximately 1808 GMT, I was able to connect with Ryan, one of the Findora developers. He told me that one of the moderator's accounts was hacked last week and about 30 members were kicked off the server by the hacker. I was one of the lucky ones, I guess. I am back in the server and the links below work again.
+On 3 May 2022 at approximately 1808 GMT, I was able to connect with Ryan, one of the Findora developers. He told me that one of the moderator's accounts was hacked last week and about 30 members were kicked off the server by the hacker. This validator was one of the lucky ones, I guess. Regul8This is back in the server and the links below work again.
 
 ## Findora Discord Gone
 As of approximately 28 April 2022, the Discord server for all the links provided below is gone. The [link to the Discord server](https://discord.com/invite/dHhY5pte) provided on the [Findora Wiki](https://wiki.findora.org/docs/general/intro/) no longer works. The [link to the Findora discord](https://findora.org/) on the [Findora home page](https://findora.org/) takes me to brand new blank Discord server. It seems to be the "new" Discord server, but I do not have any permission to verify or agree to the rules. I'm not sure what is going on with the Discord server.
