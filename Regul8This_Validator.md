@@ -1,5 +1,8 @@
 # Regul8This Validator
 
+## Validator back up as of 2 August 2022 @ 1028 PDT
+The problem has been fixed (by doing a safety clean) and the validator is back on line with the monitoring scripts now functioning as they should. Any further downtime will be noticed and rectified much faster.
+
 ## Validator down
 Around 1730 PDT on 21 August 2022, the validator went down. The scripts that were supposed to alert us of the down condition did not run (they had not been given execute permisssions). At this time, the team is troubleshooting the problem and getting the validator back up. The monitoring scripts have been fixed and they are alerting the team now of the current downtime.
 
