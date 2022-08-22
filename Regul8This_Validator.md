@@ -1,6 +1,9 @@
 # Regul8This Validator
 
-# Update to v.0.3.25
+## Validator down
+Around 1730 PDT on 21 August 2022, the validator went down. The scripts that were supposed to alert us of the down condition did not run (they had not been given execute permisssions). At this time, the team is troubleshooting the problem and getting the validator back up. The monitoring scripts have been fixed and they are alerting the team now of the current downtime.
+
+## Update to v.0.3.25
 On 16 May 2002, per the [announcement in the Discord channel](https://discord.com/channels/789009413976883220/902960166071336960/975615313091629087), the validator was updated in a mere matter of seconds (as it should be) to the latest 0.3.25 version of the software.
 
 ## Update to "Findora Discord Gone" Below
