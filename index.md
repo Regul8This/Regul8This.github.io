@@ -12,7 +12,7 @@ The [AAA FRA Validator](https://findorascan.io/node?node=3560FD0632B4E2F4F16490B
 8. From the dropdown in the top right pane, ensure the correct wallet is selected.
 9. Click the purple button the bottom right that says "STAKE".
 10. Enter the amount of FRA to stake.
-11. Then select the validator to stake to in the drop down (look for Regul8This with an address of 3560FD0632B4E2F4F16490BBD9CD0A763045BF35).
+11. Then select the validator to stake to in the drop down (look for AAA FRA Validator with an address of 3560FD0632B4E2F4F16490BBD9CD0A763045BF35).
 12. Click "STAKE".
 13. Finally, ensure you have backed up your mnemonic so you can restore your wallet if the need arises. Keep the backup in a safe spot.
 14. Happy earning!
