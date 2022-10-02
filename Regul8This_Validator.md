@@ -1,13 +1,13 @@
-# Regul8This Validator
+# [AAA FRA Validator](https://findorascan.io/node?node=3560FD0632B4E2F4F16490BBD9CD0A763045BF35) (formerly Regul8This validator)
 
 ## Validator back up as of 2 August 2022 @ 1028 PDT
-The problem has been fixed (by doing a safety clean) and the validator is back on line with the monitoring scripts now functioning as they should. Any further downtime will be noticed and rectified much faster.
+The problem has been fixed (by doing a safety clean) and the [AAA FRA Validator](https://findorascan.io/node?node=3560FD0632B4E2F4F16490BBD9CD0A763045BF35) (formerly Regul8This validator) is back on line with the monitoring scripts now functioning as they should. Any further downtime will be noticed and rectified much faster.
 
 ## Validator down
-Around 1730 PDT on 21 August 2022, the validator went down. The scripts that were supposed to alert us of the down condition did not run (they had not been given execute permisssions). At this time, the team is troubleshooting the problem and getting the validator back up. The monitoring scripts have been fixed and they are alerting the team now of the current downtime.
+Around 1730 PDT on 21 August 2022, the [AAA FRA Validator](https://findorascan.io/node?node=3560FD0632B4E2F4F16490BBD9CD0A763045BF35) (formerly Regul8This validator) went down. The scripts that were supposed to alert us of the down condition did not run (they had not been given execute permisssions). At this time, the team is troubleshooting the problem and getting the validator back up. The monitoring scripts have been fixed and they are alerting the team now of the current downtime.
 
 ## Update to v.0.3.25
-On 16 May 2002, per the [announcement in the Discord channel](https://discord.com/channels/789009413976883220/902960166071336960/975615313091629087), the validator was updated in a mere matter of seconds (as it should be) to the latest 0.3.25 version of the software.
+On 16 May 2002, per the [announcement in the Discord channel](https://discord.com/channels/789009413976883220/902960166071336960/975615313091629087), the [AAA FRA Validator](https://findorascan.io/node?node=3560FD0632B4E2F4F16490BBD9CD0A763045BF35) (formerly Regul8This validator) was updated in a mere matter of seconds (as it should be) to the latest 0.3.25 version of the software.
 
 ## Update to "Findora Discord Gone" Below
 On 3 May 2022 at approximately 1808 GMT, I was able to connect with Ryan, one of the Findora developers. He told me that one of the moderator's accounts was hacked last week and about 30 members were kicked off the server by the hacker. This validator was one of the lucky ones, I guess. Regul8This is back in the server and the links below work again.
@@ -29,12 +29,12 @@ It is unclear why most but not all validators were hit by this IP address change
 
 What the "fix" did allow, was for the validator to run; what it did not allow for was a quick way to catch back up to the current block so the validator could be truly "online". Even running a 4 vCPU system with 16 GB RAM (the recommended setup by the FRA team), the Regul8This validator could not catch up. Neither could many other validators.
 
-Regul8This took the approach of doubling the size of the validator. It is now running on an 8 vCPU/32 GB RAM system. That setup allowed the validator to catch up with the current block, though it still took much more time than before the FRA team made the seed node changes that caused this problem in the first place.
+[AAA FRA Validator](https://findorascan.io/node?node=3560FD0632B4E2F4F16490BBD9CD0A763045BF35) (formerly Regul8This validator) took the approach of doubling the size of the validator. It is now running on an 8 vCPU/32 GB RAM system. That setup allowed the validator to catch up with the current block, though it still took much more time than before the FRA team made the seed node changes that caused this problem in the first place.
 
 Even today, validators are complaining about the slow speed of the network. (See, for example, [here](https://discord.com/channels/789009413976883220/902960166071336960/963324919565934612) and [here](https://discord.com/channels/789009413976883220/902960166071336960/963374661083754586).)
 
 ## Validator Upgraded to Version 0.3.19-release on 19 Feb 2022 @ 1542 PST
-Per the [Discord thread stating that all validators needed upgrading](https://discord.com/channels/789009413976883220/918905868035166268/944274401334009906), we upgraded the validator this afternoon. We are now using findorad image version e48d2aa17eb0. 
+Per the [Discord thread stating that all validators needed upgrading](https://discord.com/channels/789009413976883220/918905868035166268/944274401334009906), we upgraded the [AAA FRA Validator](https://findorascan.io/node?node=3560FD0632B4E2F4F16490BBD9CD0A763045BF35) (formerly Regul8This validator) this afternoon. We are now using findorad image version e48d2aa17eb0. 
 
 ## Validator Upgraded to Version 0.3.11-release on 28 Dec 2021 @ 1131 PST
 Per the [Discord thread stating that all validators needed upgrading](https://discord.com/channels/789009413976883220/902960166071336960/925456119617433643), we upgraded the validator this morning. Despite the information from the dev team, it appears that the findorad docker image also needed to be upgraded. We did that and now have findorad image version cb6aa1260f32 updated just a couple of hours ago. 
@@ -114,12 +114,12 @@ docker logs -f findorad
 
 
 ## Downtime on 2 Dec 2021
-It may have come to your attention that the validator went down today. It turns out that this issue that affected the Regul8This validator is a random error that is a known issue. It is going to be [fixed in upcoming releases.](https://discord.com/channels/789009413976883220/902960166071336960/916065157803802694 "FRA Discord Message")
+It may have come to your attention that the [AAA FRA Validator](https://findorascan.io/node?node=3560FD0632B4E2F4F16490BBD9CD0A763045BF35) (formerly Regul8This validator) went down today. It turns out that this issue that affected the AAA FRA Validator (formerly Regul8This validator) is a random error that is a known issue. It is going to be [fixed in upcoming releases.](https://discord.com/channels/789009413976883220/902960166071336960/916065157803802694 "FRA Discord Message")
 
 Unfortunately, the randomness of the error did not prevent this validator from being affected. Ultimately, I had to restore from a backup then run the complete [validator initialization script](https://wiki.findora.org/assets/files/node_init_mainnet-31289365a9595aeb7188096f269a876c.sh) again. That brought the validator back online.
 
 There are still [errors being thrown](https://discord.com/channels/789009413976883220/902960166071336960/916099287211974706), though the validator is back online and processing blocks.
 
-Regul8This validator apologizes for the problem and the downtime. We will be working with the dev team to ensure that we upgrade to the patched version as soon as it is available.
+[AAA FRA Validator](https://findorascan.io/node?node=3560FD0632B4E2F4F16490BBD9CD0A763045BF35) (formerly Regul8This validator) apologizes for the problem and the downtime. We will be working with the dev team to ensure that we upgrade to the patched version as soon as it is available.
 
 If you have any questions or want to discuss the matter, reach out on Discord @Regul8or.
