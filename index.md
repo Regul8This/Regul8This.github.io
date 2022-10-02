@@ -1,8 +1,8 @@
-# Welcome to Regul8This Validator
+# Welcome to [AAA FRA Validator](https://findorascan.io/node?node=3560FD0632B4E2F4F16490BBD9CD0A763045BF35) (formerly Regul8This validator)
 
-The [Regul8This Validator](https://findorascan.io/node?node=3560FD0632B4E2F4F16490BBD9CD0A763045BF35) is available for you to stake your Findora (FRA). Simply use the Regul8This Validator address of 3560FD0632B4E2F4F16490BBD9CD0A763045BF35 to stake your FRA through your [Findora Wallet](https://wallet.findora.org/).
+The [AAA FRA Validator](https://findorascan.io/node?node=3560FD0632B4E2F4F16490BBD9CD0A763045BF35) (formerly Regul8This validator) is available for you to stake your Findora (FRA). Simply use the AAA FRA Validator address of 3560FD0632B4E2F4F16490BBD9CD0A763045BF35 to stake your FRA through your [Findora Wallet](https://wallet.findora.org/).
 
-## Detailed Instructions on Staking Findora with Regul8This
+## Detailed Instructions on Staking Findora with AAA FRA Validator
 1. Buy FRA if you don't have any (or if you just want more!). Go to [gate.io](https://www.gate.io/) to buy Findora FRA.
 2. [Download the latest Findora Wallet](https://wallet.findora.org/).
 4. Install the latest Findora Wallet.
@@ -19,4 +19,4 @@ The [Regul8This Validator](https://findorascan.io/node?node=3560FD0632B4E2F4F164
 
 For [more information on staking](https://findora.org/2021/10/staking-live-on-findora-mainnet-beta/), see this article from Findora about staking in the prior version of the mainnet (v0.2.0).
 
-## [Regul8This Validator News](Regul8This_Validator.md)
+## [AAA FRA Validator News](Regul8This_Validator.md)
