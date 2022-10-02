@@ -1,4 +1,4 @@
-# [AAA FRA Validator](https://findorascan.io/node?node=3560FD0632B4E2F4F16490BBD9CD0A763045BF35)] (formerly Regul8This validator)
+# [AAA FRA Validator](https://findorascan.io/node?node=3560FD0632B4E2F4F16490BBD9CD0A763045BF35) (formerly Regul8This validator)
 
 ## Validator back up as of 2 August 2022 @ 1028 PDT
 The problem has been fixed (by doing a safety clean) and the [AAA FRA Validator](https://findorascan.io/node?node=3560FD0632B4E2F4F16490BBD9CD0A763045BF35) (formerly Regul8This validator) is back on line with the monitoring scripts now functioning as they should. Any further downtime will be noticed and rectified much faster.
