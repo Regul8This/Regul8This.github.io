@@ -1,5 +1,11 @@
 # [AAA FRA Validator](https://findorascan.io/node?node=3560FD0632B4E2F4F16490BBD9CD0A763045BF35) (formerly Regul8This validator)
 
+## Update to 0.3.37 complete at 2215 CET on 24 December 2022
+Merry Christmas to everyone! The emergency update to 0.3.37 was completed within a couple of minutes on 24 December 2022 at approximately 2215 CET. The validator is up and running! Encourage your friends to stake with the validator so we get a more distributed and less top-heavy validator structure.
+
+## Update to 0.3.35 done on 16 December 2022 @ ~0730 CET
+The update to 0.3.35 was completed without incident on 16 December 2022 at about 0730 CET.
+
 ## Validator back up as of 22 August 2022 @ 1028 PDT
 The problem has been fixed (by doing a safety clean) and the [AAA FRA Validator](https://findorascan.io/node?node=3560FD0632B4E2F4F16490BBD9CD0A763045BF35) (formerly Regul8This validator) is back on line with the monitoring scripts now functioning as they should. Any further downtime will be noticed and rectified much faster.
 
